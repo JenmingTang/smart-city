@@ -1,0 +1,444 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "home",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "my",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/login",
+			"style": {
+				"navigationBarTitleText": "login",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/ChangePasswordPage",
+			"style": {
+				"navigationBarTitleText": "ChangePasswordPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/AllServicesPage",
+			"style": {
+				"navigationBarTitleText": "AllServicesPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/ParkingLot",
+			"style": {
+				"navigationBarTitleText": "ParkingLot",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/InfoCorrection",
+			"style": {
+				"navigationBarTitleText": "InfoCorrection",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/ParkingLot/QueryPage",
+			"style": {
+				"navigationBarTitleText": "QueryPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/ParkingLot/QueryParkingRecords",
+			"style": {
+				"navigationBarTitleText": "QueryParkingRecords",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/ParkingLot/QueryParkingDetail",
+			"style": {
+				"navigationBarTitleText": "QueryParkingDetail",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/recharge/RecordPage",
+			"style": {
+				"navigationBarTitleText": "RecordPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/recharge/RechargePage",
+			"style": {
+				"navigationBarTitleText": "RechargePage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/goods/ExchangeGoodsList",
+			"style": {
+				"navigationBarTitleText": "ExchangeGoodsList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/advertisingRotation/AdvertList",
+			"style": {
+				"navigationBarTitleText": "AdvertList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/feedback/AddFeedback",
+			"style": {
+				"navigationBarTitleText": "AddFeedback",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/feedback/FeedbackList",
+			"style": {
+				"navigationBarTitleText": "FeedbackList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/feedback/FeedbackDetail",
+			"style": {
+				"navigationBarTitleText": "FeedbackDetail",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// {
+		// 	"path": "pages/AllServices/ParkingLot/news/NewsClassification",
+		// 	"style": {
+		// 		"navigationBarTitleText": "NewsClassification",
+		// 		"enablePullDownRefresh": false
+		// 	}
+
+		// },
+		{
+			"path": "pages/AllServices/ParkingLot/news/NewsPage",
+			"style": {
+				"navigationBarTitleText": "NewsPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/news/NewsDetail",
+			"style": {
+				"navigationBarTitleText": "NewsDetail",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/point/PointExchange",
+			"style": {
+				"navigationBarTitleText": "PointExchange",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/point/ListOfPointsGrades",
+			"style": {
+				"navigationBarTitleText": "ListOfPointsGrades",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/point/PointsRecordList",
+			"style": {
+				"navigationBarTitleText": "PointsRecordList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/myVehicleInfo/MyVehicleInfo",
+			"style": {
+				"navigationBarTitleText": "MyVehicleInfo",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/myVehicleInfo/AddPage",
+			"style": {
+				"navigationBarTitleText": "AddPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/myVehicleInfo/DeletePage",
+			"style": {
+				"navigationBarTitleText": "DeletePage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/myVehicleInfo/UpdatePage",
+			"style": {
+				"navigationBarTitleText": "UpdatePage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/myVehicleInfo/QueryPage",
+			"style": {
+				"navigationBarTitleText": "QueryPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/vehicleMileageInfo/VehicleMileageInfo",
+			"style": {
+				"navigationBarTitleText": "VehicleMileageInfo",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/vehicleMileageInfo/AddPage",
+			"style": {
+				"navigationBarTitleText": "AddPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/vehicleMileageInfo/DeletePage",
+			"style": {
+				"navigationBarTitleText": "DeletePage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/vehicleMileageInfo/UpdatePage",
+			"style": {
+				"navigationBarTitleText": "UpdatePage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/vehicleMileageInfo/QueryPage",
+			"style": {
+				"navigationBarTitleText": "QueryPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/ApplyMoveCar",
+			"style": {
+				"navigationBarTitleText": "ApplyMoveCar",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/MoveCarHistory",
+			"style": {
+				"navigationBarTitleText": "MoveCarHistory",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/ParkingLot/vehicle/MoveCarHistoryList",
+			"style": {
+				"navigationBarTitleText": "MoveCarHistoryList",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// city metro
+		{
+			"path": "pages/AllServices/cityMetro/CityMetro",
+			"style": {
+				"navigationBarTitleText": "CityMetro",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/feedback/AddFeedback",
+			"style": {
+				"navigationBarTitleText": "AddFeedback",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/feedback/FeedbackList",
+			"style": {
+				"navigationBarTitleText": "FeedbackList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/feedback/FeedbackDetail",
+			"style": {
+				"navigationBarTitleText": "FeedbackDetail",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/metroInfo/NewsPage",
+			"style": {
+				"navigationBarTitleText": "NewsPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/carCode/ReceivePage",
+			"style": {
+				"navigationBarTitleText": "ReceivePage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/carCode/CarCode",
+			"style": {
+				"navigationBarTitleText": "CarCode",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/notice/MetroNoticeList",
+			"style": {
+				"navigationBarTitleText": "MetroNoticeList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/notice/DetailPage",
+			"style": {
+				"navigationBarTitleText": "DetailPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/notice/MetroStatement",
+			"style": {
+				"navigationBarTitleText": "MetroStatement",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/LostAndFound/ListPage",
+			"style": {
+				"navigationBarTitleText": "ListPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/LostAndFound/DetailPage",
+			"style": {
+				"navigationBarTitleText": "DetailPage",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/lineStation/GeneralDrawingOfUrbanSubway",
+			"style": {
+				"navigationBarTitleText": "GeneralDrawingOfUrbanSubway",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/lineStation/SiteInfoList",
+			"style": {
+				"navigationBarTitleText": "SiteInfoList",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/lineStation/CityAllLine",
+			"style": {
+				"navigationBarTitleText": "CityAllLine",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/AllServices/cityMetro/lineStation/MetroStationDetail",
+			"style": {
+				"navigationBarTitleText": "MetroStationDetail",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/AllServices/cityMetro/lineStation/MetroStationInquiry",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "MetroStationInquiry",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/AllServices/cityMetro/lineStation/MetroStationInquiryDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "MetroStationInquiryDetail",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/AllServices/cityMetro/lineStation/SiteInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "SiteInfo",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [{
+				"text": "home",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icon/tabBar/shouYeGrey.png",
+				"selectedIconPath": "static/icon/tabBar/shouYeBlue.png"
+			}
+			// , {
+			// 	"text": "数据分析",
+			// 	"pagePath": "pages/analyse/analyse",
+			// 	"iconPath": "static/icon/tabBar/dataAnalyseGrey.png",
+			// 	"selectedIconPath": "static/icon/tabBar/dataAnalyseBlue.png"
+			// }, {
+			// 	"text": "数据分析2",
+			// 	"pagePath": "pages/analyse2/analyse2",
+			// 	"iconPath": "static/icon/tabBar/dataAnalyseGrey.png",
+			// 	"selectedIconPath": "static/icon/tabBar/dataAnalyseBlue.png"
+			// }
+			, {
+				"text": "AllServices",
+				"pagePath": "pages/AllServices/AllServicesPage",
+				"iconPath": "static/icon/tabBar/serverGrey.png",
+				"selectedIconPath": "static/icon/tabBar/serverBlue.png"
+			}, {
+				"text": "my",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon/tabBar/myGrey.png",
+				"selectedIconPath": "static/icon/tabBar/myBlue.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

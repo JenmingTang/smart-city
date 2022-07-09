@@ -1,0 +1,109 @@
+有问题的接口
+
+========================
+停哪儿 模块
+	========================
+	2.3.2.充值
+		code:500
+		Optional long parameter 'money' is present but cannot be translated into a null value due to being declared as a primitive type. 
+		Consider declaring it as object wrapper for the corresponding primitive type.
+		存在可选长参数“money”，但由于被声明为基元类型（java 的 long，非 Long，因而无法接受 null，因为此参数是可选的）
+		，因此无法将其转换为null值。
+		考虑将其声明为相应基元类型的对象包装器。
+		
+	========================
+	2.7.2.获取新闻评论列表
+		/prod-api/api/park/press/comments/list?newsId=135
+		
+		"code": 500
+		"msg": "\r\n### Error querying database.
+		  Cause: java.sql.SQLSyntaxErrorException:
+		   Unknown column 'c.content' in
+			'field list'\r\n### The error may exist in
+			 URL [jar:file:/D:/zhcsnew/server-v2/ljxl-admin.jar!/BOOT-INF/lib/sc-common-3.3.0.jar!/mapper/news/ComNewsCommentMapper.xml]\r\n### The error may involve com.ljxl.sc.common.mapper.ComNewsCommentMapper.selectComNewsCommentList-Inline\r\n### The error occurred while setting parameters\r\n### SQL: SELECT c.id, c.app_type, c.news_id, c.content, c.comment_date, c.user_id, c.like_num, n.`title`, u.`user_name` FROM com_news_comment c LEFT JOIN com_news n ON n.`id` = c.`news_id` LEFT JOIN sys_user u ON u.`user_id` = c.`user_id` WHERE c.app_type = ? AND c.news_id = ? order by comment_date asc\r\n### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'c.content' in 'field list'\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'c.content' in 'field list'",
+
+		
+		列表拿不到，这也拿不到
+		========================
+		2.7.3.获取新闻评论详细信息
+		========================
+		2.7.8.评论点赞
+		
+		
+	========================
+	2.7.7.发表新闻评论
+		POST
+		http://124.93.196.45:10001/prod-api/api/park/press/pressComment
+		Authorization: eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjBlNGNmODA2LThlZWQtNGFlZi1iMDQzLTc5OTIxYmNiZGU1YSJ9.iPKMxmgmPYIq2Rkp0N9vwsLl10vSKNh4h5aTsJA70gMRZfTw4mKuXkyBeDHD6myiQ1-xQFdfc2VKjSusqmkn2A
+		Content-Type: application/json
+		{"newsId": 135,"content": "新闻评论测试"}
+		"msg": "\r\n### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'content' in 'field list'\r\n### The error may exist in URL [jar:file:/D:/zhcsnew/server-v2/ljxl-admin.jar!/BOOT-INF/lib/sc-common-3.3.0.jar!/mapper/news/ComNewsCommentMapper.xml]\r\n### The error may involve com.ljxl.sc.common.mapper.ComNewsCommentMapper.insertComNewsComment-Inline\r\n### The error occurred while setting parameters\r\n### SQL: insert into com_news_comment          ( app_type,             news_id,             content,             comment_date,             user_id,             like_num )           values ( ?,             ?,             ?,             ?,             ?,             ? )\r\n### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'content' in 'field list'\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'content' in 'field list'",
+		"code": 500
+		
+	========================	
+	2.8.4.获取系统用户获取积分消息
+		GET
+		http://124.93.196.45:10001/prod-api/api/park/score/notice/list
+	========================
+	2.8.5.查询积分排行榜
+		GET
+		http://124.93.196.45:10001/prod-api/api/park/score/top/list
+	
+	
+	
+	没问题，方便记而已
+	2.9.4.添加车辆里程信息
+	2.9.6.删除车辆里程信息
+	2.9.5.修改车辆里程信息
+	2.9.3.查询车辆里程信息
+	2.9.1.添加我的车辆信息
+	2.9.9.删除我的车辆信息
+	2.9.2.修改我的车辆信息
+	2.9.8.查询我的车辆信息
+	2.9.7.申请挪车
+	2.9.10.挪车历史
+
+
+
+
+=======================
+城市地铁 模块
+	========================
+	3.3.2.获取新闻评论列表
+		/prod-api/api/park/press/comments/list?newsId=70
+		
+		"code": 500
+		"msg": "\r\n### Error querying database.
+		  Cause: java.sql.SQLSyntaxErrorException:
+		   Unknown column 'c.content' in
+			'field list'\r\n### The error may exist in
+			 URL [jar:file:/D:/zhcsnew/server-v2/ljxl-admin.jar!/BOOT-INF/lib/sc-common-3.3.0.jar!/mapper/news/ComNewsCommentMapper.xml]\r\n### The error may involve com.ljxl.sc.common.mapper.ComNewsCommentMapper.selectComNewsCommentList-Inline\r\n### The error occurred while setting parameters\r\n### SQL: SELECT c.id, c.app_type, c.news_id, c.content, c.comment_date, c.user_id, c.like_num, n.`title`, u.`user_name` FROM com_news_comment c LEFT JOIN com_news n ON n.`id` = c.`news_id` LEFT JOIN sys_user u ON u.`user_id` = c.`user_id` WHERE c.app_type = ? AND c.news_id = ? order by comment_date asc\r\n### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'c.content' in 'field list'\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'c.content' in 'field list'",
+
+		
+		列表拿不到，这也拿不到
+		========================
+		3.3.3.获取新闻评论详细信息
+		========================
+		3.3.8.评论点赞
+	========================
+	3.3.7.发表新闻评论
+	========================
+	3.8.1.获取当前用户乘车记录列表
+		token 没有记录，且没有找到添加记录的接口
+	
+	
+	
+	
+	
+	没问题，方便记而已
+	3.7.1.获取城市铁总览图o
+	3.7.5.查询站点信息列表o
+	3.7.6.查询地铁站详情o
+	3.7.4.首页地铁站点查询o
+	3.7.3.查询城市所有线路o
+	3.7.2.根据站点名和线路编号查找站点信息o
+	
+
+
+eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjE3ODcwMWQwLTQ0MWUtNDA4Zi1hOTcxLTJjYzlkYmMxZThlNSJ9.uOhfDHl5u5MLDHCOnY5ok_ZDsP_8jsIwos3NZvrtuUtDsW--tG8jsi8WYRMmZi8EmQsPme2ZpxtN0fLZ8fTE_Q
+

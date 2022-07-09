@@ -1,0 +1,5 @@
+共用的组件
+
+"pages/AllServices/ParkingLot/news/NewsClassification"
+"pages/AllServices/ParkingLot/news/NewsDetail"
+"pages/AllServices/ParkingLot/advertisingRotation/AdvertList"
